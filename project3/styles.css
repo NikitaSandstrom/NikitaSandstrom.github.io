@@ -1,0 +1,629 @@
+.main {
+    width: 100%;
+    position: relative;
+    float: left;
+}
+
+* {
+    font-family: 'Ubuntu', sans-serif;
+    box-sizing: border-box;
+    line-height: 1em;
+    padding: 0;
+    margin: 0;
+}
+
+.peopleImages {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+
+}
+
+.svgImages {
+    height: 50px;
+    width: 50px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.chartTitle {
+    font-size: 26px;
+    margin: 5px;
+}
+
+/**********************
+    HEADER STYLING    
+**********************/
+
+sup {
+    font-size: 50%;
+}
+
+header {
+    color: white;
+    height: 80px;
+    background-color: rgb(116, 119, 191);
+    padding: 5px 0 5px 20px;
+    position: relative;
+}
+
+.mainTitle {
+    font-size: 28px;
+    position: absolute;
+    top: 25%;
+}
+
+.notifications {
+    position: absolute;
+    top: 25%;
+    right: 300px;
+} 
+
+.user {
+    position: absolute;
+    top: 20%;
+    right: 53px;
+    border-left: 1px solid rgb(93, 97, 191);
+    padding-left: 20px;
+    height: 60px;
+    width: 235px;
+}
+
+#userName {
+    font-size: 20px;
+    position: absolute;
+    top: 15px;
+    left: 85px;
+}
+
+/********************
+    NAVBAR STYLES
+********************/
+
+.navBar {
+    width: 8%;
+    height: 3000px;
+    float: left;
+    background-color: rgb(77, 76, 114);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin-top: 20px;
+    margin-bottom: 50px; 
+}
+
+li img {
+    margin-left: 45px;
+}
+
+li a{
+    display: block;
+}
+
+
+
+/**********************
+    MAIN BODY STYLES    
+**********************/
+
+.main-content {
+    position: relative;
+    height: 1px;
+}
+
+.searchArea {
+    float: right;
+    background-color: rgb(251, 251, 251);
+    width: 79%;
+    position: relative;
+    border-left: 1px solid rgb(217, 217, 217);
+    border-bottom: 1px solid rgb(217, 217, 217);
+}
+
+#searchBar {
+    margin: 10px 20px 10px 0;
+    width: 27%;
+    height: 50px;
+    border-color: rgb(230, 230, 230);
+    border-radius: 5px; 
+    font-size: 22px;
+    padding: 10px;
+    margin-left: 65%;
+    outline: none;
+}
+
+.dashboardText {
+    font-size: 28px;
+    padding-top: 12px;
+    margin-left: 175px;
+}
+
+#content {
+    width: 92%;
+    float: right;
+}
+
+    /*********************
+        alert box style    
+    *********************/
+
+.alertBox {
+    background-color: rgb(115, 119, 191);
+    width: 98%;
+    margin: auto;
+    margin-top: 10px;
+    height: 58px;
+    border-radius: 5px;
+    position: relative;
+}
+
+#alertText {
+    padding-top: 20px;
+    padding-left: 15px;
+    color: white;
+    max-width: 95%;
+}
+
+#alertText strong{
+    font-size: 17px;
+}
+
+.alertBox a{
+    text-decoration: none;
+    position: absolute;
+    top: 33%;
+    right: 1%;
+}
+
+.alertBox a:visited {
+    color: white;
+}
+
+/*********************
+   LINE CHART STYLES
+*********************/
+
+#myChart {
+    width: 100%;
+    height: auto;
+}
+
+.chart1 {
+    width: 100%;
+}
+
+.timeFrame {
+    color: #737373;
+    float: right;
+}
+
+.timeFrame a:visited {
+    color: #737373;
+}
+
+.timeFrame a {
+    display: inline-block;
+    margin: 10px 10px 10px 10px;
+}
+
+.highlight {
+    color: white;
+    padding: 4px 10px 4px 10px;
+    background-color: #2eb82e;
+    border-radius: 25px;
+}
+
+a.highlight:visited {
+    color: white;
+}
+
+.sizeAdjust {
+    width: 100%;
+    height: 1px;
+    margin-top: 20px;
+    border-top: 1px solid #737373; 
+}
+
+/************************
+    BAR GRAPH STYLES
+************************/
+
+.chart2 {
+    width: 50%;
+    margin-top: 5px;
+    float: left;
+    border-bottom: 1px solid #737373;
+    border-right: 1px solid #737373;
+    margin: auto;
+}
+
+#myChart1 {
+    width: 100% !important;
+    height: auto !important;
+}
+
+/***********************
+    PIE CHART STYLES    
+***********************/
+
+.chart3 {
+    width: 50%;
+    float: right;
+    margin: auto;
+    margin-bottom: 20px;    
+    border-bottom: 1px solid #737373;
+    position: relative;
+}
+
+#myChart2 {
+    width: 47% !important;
+    height: auto !important;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+/*********************
+    LEGEND BLOCKS
+*********************/
+
+.boxes {
+    height: 70px;
+    width: 70px;
+    border-radius: 20px;
+}
+
+.legendText {
+    font-size: 24px;
+}
+
+.box1 {
+    background-color: rgb(116, 177, 191);
+    position: absolute;
+    top: 80px;
+    right: 200px;
+}
+
+.text1 {
+    position: absolute;
+    top: 105px;
+    right: 105px;
+}
+
+.box2 {
+    background-color: rgb(129, 201, 143);
+    position: absolute;
+    top: 160px;
+    right: 200px
+}
+
+.text2 {
+    position: absolute;
+    top: 185px;
+    right: 105px;
+}
+
+.box3 {
+    background-color: rgb(115, 119, 191);
+    position: absolute;
+    top: 240px;
+    right: 200px;
+}
+
+.text3 {
+    position: absolute;
+    top: 265px;
+    right: 95px;
+}
+
+/******************
+    SOCIAL STATS    
+******************/
+
+.socialStats {
+    width: 100%;
+    clear: both;
+    height: 300px;
+    border-bottom: 1px solid rgb(209, 209, 209);
+}
+
+.socialTitle {
+    font-size: 26px;
+    margin: 10px 0 0 10px;
+}
+
+#twitterBox, #facebookBox, #googlePlusBox {
+    height: 150px;
+    width: 30%;
+    background-color: rgb(251, 251, 251);
+    border: 1px solid rgb(209, 209, 209);
+    border-radius: 15px;
+    margin-top: 20px;
+    position: relative;
+    float: left;
+    margin-right: 1%; 
+    margin-left: 1%;
+}
+
+#twitter, #facebook, #googlePlus {
+    background-color: rgb(115, 119, 191);
+    height: 100px;
+    width: 100px;
+    position: relative;
+    border-radius: 100px;
+    top: 23px;
+    left: 10px;
+}
+
+#twitter img, #facebook img, #googlePlus img {
+    filter: invert(100%);
+    height: 50px;
+    width: 50px;
+    position: absolute;    
+}
+
+#twitter img {
+    top: 30px;
+    left: 25px;
+}
+
+#facebook img {
+    top: 23px;
+    left: 23px;
+}
+
+#googlePlus img {
+    top: 25px;
+    left: 25px;
+}
+
+.titlePlacement {
+    color: rgb(115, 119, 191);
+    font-size: 20px;
+    position: absolute;
+    top: 20px;
+    left: 150px;
+}
+
+.numbers {
+    font-size: 50px;
+    position: absolute;
+    top: 50px;
+    left: 150px;
+}
+
+/*********************
+    ACTIVITY AREA    
+*********************/
+
+.activityArea {
+    position: relative;
+    border-bottom: 1px solid rgb(209, 209, 209); 
+}
+
+.memberIcons {
+    height: 50px;
+    width: 50px;   
+    border-radius: 25px; 
+}
+
+.activity1 {
+    width: 49%;
+    margin-left: 1%;
+    margin-top: 10px;
+    float: left;
+    border-right: 1px solid rgb(209, 209, 209);
+}
+
+.activity2 {
+    width: 49%;
+    margin-right: 1%;
+    margin-top: 10px;
+    float: right;
+}
+
+.members {
+    position: relative;
+    margin-top: 25px;
+    border-bottom: 1px solid rgb(209, 209, 209);
+    width: 93%;
+    margin-left: 2%;
+    margin-right: 5%;
+    padding-bottom: 15px;
+}
+
+.membersFix {
+    width: 93%;
+    margin-left: 5%;
+    margin-right: 2%;
+}
+
+.activity1 h3, .activity2 h3 {
+    font-size: 22px;
+    margin-left: 20px;
+}
+
+.memberName {
+    font-size: 18px;
+    position: absolute;
+    left: 60px;
+    top: 1px;
+}
+
+.memberEmail {
+    font-size: 15px;
+    position: absolute;
+    left: 59px;
+    top: 25px;
+    color: rgb(93, 97, 191);
+}
+
+.memberDate {
+    font-size: 14px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    color: rgba(0,0,0,.7);
+}
+
+.memberActivity {
+    font-size: 14px;
+    position: absolute;
+    top: 25px;
+    left: 59px;
+}
+
+.arrowClick {
+    color: rgb(93, 97, 191);
+    font-size: 30px;
+    position: absolute;
+    top: 1px;
+    right: 10px;
+}
+
+.emptyBox {
+    
+    width: 100%;
+    height: 1px;
+    clear: both;
+    border-top: 1px solid rgb(209, 209, 209);  
+}
+
+/********************
+    SETTINGS AREA
+********************/
+
+.settingsArea {
+    width: 100%;
+}
+
+.settings1 {
+    width: 49%;
+    margin-left: 1%;
+    margin-top: 10px;
+    float: left;
+    border-right: 1px solid rgb(209, 209, 209);
+}
+
+.settings2 {
+    width: 49%;
+    margin-right: calc(1%-5px);
+    margin-top: 10px;
+    float: right;
+    position: relative;
+}
+
+.settings1 h3, .settings2 h3 {
+    font-size: 22px;
+    margin-left: 20px;
+}
+
+.settings1 form {
+    width: 95%;
+    margin: auto;
+    margin-top: 25px;
+}
+
+.settings1 form input[type=text] {
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    padding: 10px;
+    background-color: rgb(249, 249, 249);
+    border-radius: 10px;  
+    outline: none;  
+    margin-bottom: 20px;
+    border: 1px solid rgb(100, 100, 100);
+}
+
+.settings1 form textarea {
+    outline: none;
+    width: 100%;
+    background-color: rgb(249, 249, 249);
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.settings1 form input[type=submit] {
+    height: 50px;
+    width: 100%;
+    outline: none;
+    background-color: rgb(115, 119, 191);
+    border: none;
+    color: white;
+    font-size: 25px;
+    border-radius: 10px;
+}
+
+.settings2 {
+    margin-left: 5px;
+}
+
+#emailNotify {
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.emailText {
+    max-width: 28%; 
+    margin-bottom: 5px;
+}
+
+.settings2 #box {
+    margin-top: 20px;
+}
+
+#profilePublicity {
+    width: 100px;
+}
+
+.publicText {
+    max-width: 28%;
+    margin-bottom: 5px;
+}
+
+select {
+    width: 98%;
+    margin: auto;
+    height: 50px;
+    margin-top: 80px;
+    background-color: rgb(249, 249, 249);
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+    outline: none;
+}
+
+#submitButtons {
+    width: 98%;
+    margin: auto;
+}
+
+#button1, #button2 {
+    width: 49%;
+    margin-left: auto;
+    outline: none;
+    height: 50px;
+    font-size: 20px;
+    color: white;
+    margin-top: 35px;
+    border-radius: 10px;
+    border: none;
+}
+
+#button1 {
+    background-color: rgb(115, 119, 191);
+}
+
+#button2 {
+    background-color: rgb(178, 178, 178);
+}

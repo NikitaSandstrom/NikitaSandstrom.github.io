@@ -1,0 +1,322 @@
+@media only screen and (max-width: 1915px) {
+    .searchArea {
+        width: 92%;
+    }
+
+    .dashboardText {
+        padding: 0;
+    }
+
+    .alertBox {
+        margin-top: 10px;
+    }
+}
+
+
+
+@media only screen and (max-width: 1430px) {
+    .memberName {
+        font-size: 15px;
+    }
+}
+
+
+
+@media only screen and (max-width: 1331px) {
+    .main-content {
+        margin-top: 100px;
+    }
+    
+    .searchArea {
+        width: 100%;
+    }
+
+    #searchBar {
+        width: 50%;
+        margin-left: 5%;
+    }
+    
+    .alertBox {
+        width: 98%;
+        margin: auto;
+    }
+
+    .navBar {
+        width: 100%;
+        height: 100px;
+    }
+    
+    li {
+        float: left;
+        margin-right: 20px;
+    }
+
+    .dashboardText {
+        margin-bottom: 10px;
+        margin-left: 5px;
+    }
+
+    #content {
+        float: none;
+        width: 100%;    
+    }
+
+    #myChart {
+        width: 98% !important;
+        height: auto;
+        margin: auto;
+    }
+
+    .chartTitle {
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    .chart2 {
+        width: 100%;
+        border-right: none;
+        float: none;
+    }
+
+    .chart3 {
+        width: 100%;
+        float: none;
+    }
+
+    #myChart2 {
+        width: 40% !important;
+    }
+}
+
+
+
+@media only screen and (max-width: 1140px) {
+    
+    .activity1 {
+        float: none;
+        width: 100%;
+        border-right: none;
+    }
+
+    .activity2 {
+        float: none;
+        width: 100%;
+        margin-right: 0;
+        margin-left: 1%;
+    }
+
+    .membersFix {
+        width: 93%;
+        margin-left: 2%;
+        margin-right: 5%;
+    }
+
+    .emptyBox {
+        display: none;
+    }
+
+    .settings1 {
+        float: none;
+        width: 100%;
+        border-bottom: 1px solid rgb(209, 209, 209); 
+        padding-bottom: 20px;
+    }
+
+    .settings2 {
+        float: none;
+        width: 100%;
+        padding-bottom: 20px;
+    }
+}
+
+
+
+@media only screen and (max-width: 1060px) {
+    .socialStats {
+        height: auto;
+        padding-bottom: 10px;
+    }
+    
+    #twitterBox, #facebookBox, #googlePlusBox {
+        width: 90%;
+        float: none;
+    }
+}
+
+
+
+@media only screen and (max-width: 769px) {
+    #searchBar {
+        width: 70%;
+        margin-left: 5%;
+    }
+
+    .boxes {
+        height: 50px;
+        width: 50px;
+        border-radius: 15px;
+    }
+
+    .legendText {
+        font-size: 20px;
+    }
+
+    .box1 {
+        top: 60px;
+        right: 200px;
+    }
+
+    .text1 {
+        top: 75px;
+        right: 115px;
+    }
+
+    .box2 {
+        top: 120px;
+        right: 200px
+    }
+
+    .text2 {
+        top: 135px;
+        right: 115px;
+    }
+
+    .box3 {
+        top: 180px;
+        right: 200px;
+    }
+
+    .text3 {
+        top: 195px;
+        right: 105px;
+    }
+}
+
+
+
+@media only screen and (max-width: 580px) {
+    .membersFix .memberName {
+        font-size: 12px;
+        max-width: 60%;
+    }
+
+    #button1, #button2 {
+        width: 98%;
+        margin: auto;
+    }
+
+    #button1 {
+        margin-bottom: 10px;
+        margin-top: 15px;
+    }
+}
+
+
+
+@media only screen and (max-width: 520px) {
+    .chartTitle {
+        text-align: center;
+    }
+    
+    .navbar {
+        height: 35px;
+        width: 35px;
+    }
+
+    li {
+        margin-top: 30px;
+    }
+
+    li img {
+        margin-left: 25px;
+    }
+    
+    #userName {
+        display: none;
+    }
+
+    .notifications {
+        right: 100px;
+    }   
+
+    .user {
+        width: 85px;
+        right: 0;
+    }
+
+    .timeFrame {
+        margin-top: 5px;
+    }
+
+    .timeFrame a {
+        font-size: 12px;
+    }
+
+    .boxes {
+        width: 40px;
+        height: 40px;
+        border-radius: 10px;
+    }
+
+    .legendText {
+        font-size: 18px;
+    }
+
+    .box1 {
+        top: 45px;
+        right: 100px;
+    }
+
+    .text1 {
+        top: 55px;
+        right: 30px;
+    }
+
+    .box2 {
+        top: 87px;
+        right: 100px;
+    }
+
+    .text2 {
+        top: 97px;
+        right: 30px;
+    }
+
+    .box3 {
+        top: 129px;
+        right: 100px;
+    }
+
+    .text3 {
+        top: 139px;
+        right: 20px;
+    }
+}
+
+
+
+@media only screen and (max-width: 320px) {
+    .navbar {
+        height: 30px;
+        width: 30px;
+    }
+
+    .titlePlacement {
+        font-size: 15px;
+        top: 30px;
+        left: 150px;
+    }
+
+    .numbers {
+        font-size: 35px;
+        position: absolute;
+        top: 70px;
+        left: 150px;
+    }
+    
+    .a {
+        position: absolute;
+        top: 0;
+        font-size: 8px;
+    }
+}
