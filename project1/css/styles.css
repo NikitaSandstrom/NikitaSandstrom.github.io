@@ -1,0 +1,325 @@
+* {
+    box-sizing: border-box;  
+
+}
+
+body {
+    width: 100%;
+    background-color: #fafafa;
+}
+
+.main-nav {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto 50px auto;
+}
+
+#top-page-name{
+    font-size: 2.5em;
+}
+
+.nav-links{
+    font-size: 1.3em;
+}
+
+.nav-links ul{
+    padding: 0;
+}
+
+.nav-links li{
+    list-style-type: none;
+    background-color: #fdfdfd;
+    margin-bottom: 5px;
+    padding: 15px 0;
+}
+
+.nav-links a{
+    text-decoration: none;
+    transition: all .5s ease;
+    
+}
+
+a:link {
+    color: #4a4a4a;
+}
+
+a:visited {
+    color: #0000b3;
+}
+
+a:hover {
+    color: #2f88a3;
+}
+
+a:active {
+    color: #ffd800;
+}
+
+.profile-image {
+    max-width: 80%;
+}
+
+.paragraph-texts {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 1.125em;
+}
+
+.header-names, .nav-links, .nav-links-bottom {
+    font-family: Amaranth, sans-serif;
+}
+
+.header-names {
+    font-size: 1.5em;
+}
+#top-section-name-portfolio {
+    font-size: 1.75em;
+    padding-bottom: 25px;    
+}
+
+.portfolio-section {
+    text-align: center;
+    background-color: #fdfdfd;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-top: 5px solid #da5238;
+
+}
+
+.portfolio-images {
+    max-width: 90%;
+}
+
+.skills-section {
+    font-size: 1.25em;
+    border: 5px solid #da5238;
+    border-left: none;
+    border-right: none;
+}
+
+.skills-section p {
+    font-size: .85em;
+}
+
+.contact-section {
+    text-align: center;
+    padding-top: 25px;
+}
+
+.footer-links ul{
+    padding: 0;
+}
+
+.footer-links li{
+    list-style-type: none;
+    margin-bottom: 5px;
+    padding: 15px 0;
+}
+
+.footer-links a{
+    text-decoration: none;
+}
+
+.footer-names {
+    font-family: Amaranth, sans-serif;
+}
+
+footer {
+    clear: both;
+    border-top: lightgrey 1px solid;
+    margin-bottom: 70px;
+}
+.footer-left {
+    float: left;
+    margin-left: 5px;
+}
+
+.footer-right {
+    float: right;
+    margin-right: 5px;
+}
+
+.contact {
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+.contact a{
+    text-decoration: none;
+}
+
+.nav-links-bottom{
+    font-size: .8em;
+}
+
+.nav-links-bottom ul{
+    padding: 0;
+}
+
+.nav-links-bottom li{
+    list-style-type: none;
+    background-color: #fdfdfd;
+    margin-bottom: 5px;
+    padding: 15px 0;
+    display: none;
+}
+
+.nav-links-bottom a{
+    text-decoration: none;
+    
+}
+
+.desktop-layout {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    
+    
+    .tablet-portfolio-1 {
+        max-width: 50%;
+        float: left;
+    }
+
+    .tablet-portfolio-2 {
+        max-width: 50%;
+        float: right;
+    }
+
+    .portfolio-section, .main-nav{
+        clear: both;
+    }
+
+    .skills-section p, .contact-section p{
+        max-width: 65%;
+        margin: 2px auto;   
+    }
+
+    .contact p{
+        margin: 25px 195px;
+    }
+
+    .profile-image {
+        max-width: 35%;
+        float: right;
+        margin-bottom: 25px;
+        padding-left: 10px;
+    }
+
+    .profile-info {
+        max-width: 65%;
+        float: left;
+        text-align: left;
+        padding-right: 10px;
+        
+    }
+
+    .main-nav {
+        width: 95%;
+    }
+
+    .nav-links li{
+        background-color: transparent;
+        display: inline-block;
+        text-align: center;
+        margin: 0px 10px;
+        margin-bottom: 20px;
+    }
+
+    nav.nav-links:after {
+        content: '';
+        display: block;
+        clear: both;
+    }
+
+    .nav-links-bottom a {
+        transition: all .5s ease;
+    }
+
+    .nav-links-bottom{
+        font-size: .8em;
+        float: right;
+    }
+
+    .nav-links-bottom ul{
+        padding: 0;
+    }
+
+    .nav-links-bottom li{
+        list-style-type: none;
+        background-color: #fdfdfd;
+        margin-bottom: 5px;
+        padding: 15px 0;
+        display: inline-block;
+        float: left;
+        margin: 0px 10px;
+    }
+    
+    .nav-links-bottom a{
+        text-decoration: none;
+    
+    }
+
+    .footer-right {
+        display: none;
+    }
+}
+
+
+
+
+@media screen and (min-width: 1024px) {
+    
+    * {
+        border: 1px solid transparent;
+    }
+    
+    .tablet-mobile-layout {
+        display: none;
+    }
+    
+    .desktop-layout {
+        display: block;
+    }  
+ 
+    header  {
+        max-width: 90%;
+        margin-left: 5%;
+    }
+
+    #top-page-name {
+        float: left;
+    }
+
+    .nav-links li{
+        float: right;
+    }
+
+    .profile-image {
+        float: right;
+    }
+
+    .flattener {
+
+        max-width: 100%;
+        display: block;
+    }
+
+    .main-content {
+        max-width: 100%;
+    }
+    
+    .column-1 {
+        max-width: 33%;
+        float: left;
+    }
+
+    .column-2 {
+        max-width: 33%;
+        float: left;
+    }
+
+    .column-3 {
+        max-width: 33%;
+        float: left;
+    }
+}
